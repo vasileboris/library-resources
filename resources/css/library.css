@@ -141,7 +141,7 @@ body {
 
 .result-book, .result-date-reading-session, .result-single {
     float: left;
-    margin: 10px 10px 10px 0px;
+    margin: 10px;
 }
 
 .result-book {
