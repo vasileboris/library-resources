@@ -55,8 +55,8 @@ body {
     background-color: white;
 }
 
-.entries {
-    width: 100%;
+.content {
+    max-width: var(--page-width);
 }
 
 .entry {
