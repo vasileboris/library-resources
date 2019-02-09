@@ -1,3 +1,16 @@
+:root {
+    --page-width: 960px;
+    --two-column-width: 460px;
+    --four-column-width: 220px;
+    --six-column-width: 140px;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
@@ -11,8 +24,7 @@ body {
 }
 
 .header {
-    max-width: 960px;
-    min-width: 480px;
+    max-width: var(--page-width);
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,34 +49,34 @@ body {
 }
 
 .page-content {
-    max-width: 960px;
-    min-width: 480px;
+    max-width: var(--page-width);
     margin-left: auto;
     margin-right: auto;
     background-color: white;
 }
 
-.content {
-    margin: 10px;
-}
-
 .entries {
     width: 100%;
-    padding: 10px 0 0 0;
 }
 
 .entry {
-    width: 460px;
+    width: var(--two-column-width);
     float: left;
-    margin: 0px 10px 10px 0px;
+    margin: 10px;
 }
 
 .text {
-    width: 460px;
+    width: var(--two-column-width);
     height: 40px;
     margin-bottom: 10px;
     font-family: inherit;
     font-size: inherit;
+}
+
+.cancel {
+    display: inline-block;
+    width: var(--two-column-width);
+    text-align: right;
 }
 
 .button {
@@ -100,7 +112,7 @@ body {
 }
 
 .messages {
-    width: 460px;
+    width: var(--two-column-width);
 }
 
 .message-entry {
@@ -131,17 +143,17 @@ body {
 }
 
 .result-book {
-    width: 140px;
+    width: var(--six-column-width);
     height: 400px;
 }
 
 .result-date-reading-session {
-    width: 140px;
+    width: var(--six-column-width);
     height: 210px;
 }
 
 .result-single {
-    width: 220px;
+    width: var(--four-column-width);
 }
 
 .result-important {
@@ -172,11 +184,11 @@ body {
 }
 
 .img-book-small {
-    width: 140px;
+    width: var(--six-column-width);
     height: 174px;
 }
 
 .img-book-large {
-    width: 220px;
+    width: var(--four-column-width);
     height: 273px;
 }
