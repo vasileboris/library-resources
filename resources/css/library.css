@@ -14,13 +14,13 @@ html {
 body {
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
-    background-color: #f0f0f0;
+    background-color: white;
 }
 
 .page-header {
     max-width: 100%;
     margin: 10px 0 10px 0;
-    background-color: #403042;
+    background-color: #f4f1e7;
 }
 
 .header {
