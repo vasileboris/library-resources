@@ -112,7 +112,9 @@ body {
 }
 
 .messages {
-    width: var(--two-column-width);
+    width: 100%;
+    /* This was added to avoid the problem of parents of floated elements */
+    overflow: auto;
 }
 
 .message-entry {
