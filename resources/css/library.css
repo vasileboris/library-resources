@@ -74,6 +74,8 @@ body {
 }
 
 .cancel {
+    margin: -15px 0px 0px 15px;
+    position: absolute;
     display: inline-block;
     width: var(--two-column-width);
     text-align: right;
