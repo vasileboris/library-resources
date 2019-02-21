@@ -201,7 +201,8 @@ input[type="search"].text {
     height: 174px;
 }
 
-@media all and (min-width: 320px) {
+/*320px + 20px*/
+@media all and (min-width: 340px) {
     /* Base */
     :root {
         --max-page-width: calc(var(--three-column-width) + calc(2 * var(--margin)));
@@ -220,7 +221,8 @@ input[type="search"].text {
     }
 }
 
-@media all and (min-width: 480px) {
+/*480px + 20px*/
+@media all and (min-width: 500px) {
     /* Base */
     :root {
         --max-page-width: calc(var(--two-column-width) + calc(2 * var(--margin)));
