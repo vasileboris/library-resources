@@ -75,9 +75,25 @@ body {
     max-width: var(--max-page-width);
 }
 
+.container {
+    display: flex;
+}
+
+.container.horizontal {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.container.horizontal > * {
+    flex: 1 1 0px;
+}
+
+.entries {
+    width: 100%;
+}
+
 .entry {
     width: var(--six-column-width);
-    float: left;
     margin: var(--margin);
     text-align: center;
 }
@@ -128,8 +144,6 @@ input[type="search"].text {
 
 .messages {
     width: 100%;
-    /* This was added to avoid the problem of parents of floated elements */
-    overflow: auto;
 }
 
 .message-entry {
@@ -143,12 +157,9 @@ input[type="search"].text {
 
 .results {
     width: 100%;
-    /* This was added to avoid the problem of parents of floated elements */
-    overflow: auto;
 }
 
 .result-book, .result-date-reading-session, .result-single {
-    float: left;
     margin: var(--margin);
 }
 
@@ -210,14 +221,6 @@ input[type="search"].text {
 
     .entry {
         width: var(--three-column-width);
-    }
-
-    .result-book {
-        height: 400px;
-    }
-
-    .result-date-reading-session {
-        height: 210px;
     }
 
     .img-book-large {
