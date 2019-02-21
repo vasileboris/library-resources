@@ -219,6 +219,11 @@ input[type="search"].text {
     .result-date-reading-session {
         height: 210px;
     }
+
+    .img-book-large {
+        width: var(--four-column-width);
+        height: 273px;
+    }
 }
 
 /*480px + 20px*/
@@ -230,11 +235,6 @@ input[type="search"].text {
 
     .entry {
         width: var(--two-column-width);
-    }
-
-    .img-book-large {
-        width: var(--four-column-width);
-        height: 273px;
     }
 }
 
