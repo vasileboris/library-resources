@@ -6,7 +6,7 @@
     --four-column-width: 220px;
     --six-column-width: 140px;
     --margin: 10px;
-    --max-page-width: calc(var(--six-column-width) + var(--margin) + var(--margin));
+    --max-page-width: calc(var(--six-column-width) + calc(2 * var(--margin)));
     --color-1: #f4f1ea;
     --color-2: #ffffff;
     --color-3: #10bbd5;
@@ -73,6 +73,7 @@ body {
 
 .content {
     max-width: var(--max-page-width);
+    text-align: center;
 }
 
 .container {
@@ -81,15 +82,16 @@ body {
 
 .container.horizontal {
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .container.horizontal > * {
-    flex: 1 1 0px;
+    flex: 0 0 var(--six-column-width);
 }
 
 .entries {
-    width: 100%;
+    width: calc(var(--six-column-width) + calc(2 * var(--margin)));
+    display: inline-block;
 }
 
 .entry {
@@ -160,19 +162,9 @@ input[type="search"].text {
 }
 
 .result-book, .result-date-reading-session, .result-single {
+    width: var(--six-column-width);
     margin: var(--margin);
-}
-
-.result-book {
-    width: var(--six-column-width);
-}
-
-.result-date-reading-session {
-    width: var(--six-column-width);
-}
-
-.result-single {
-    width: var(--four-column-width);
+    text-align: left;
 }
 
 .result-important {
@@ -219,6 +211,10 @@ input[type="search"].text {
         --max-page-width: calc(var(--three-column-width) + calc(2 * var(--margin)));
     }
 
+    .entries {
+        width: calc(var(--three-column-width) + calc(2 * var(--margin)));
+    }
+
     .entry {
         width: var(--three-column-width);
     }
@@ -227,6 +223,10 @@ input[type="search"].text {
         width: var(--four-column-width);
         height: 273px;
     }
+
+    .result-single {
+        width: var(--four-column-width);
+    }
 }
 
 /*480px + 20px*/
@@ -234,6 +234,10 @@ input[type="search"].text {
     /* Base */
     :root {
         --max-page-width: calc(var(--two-column-width) + calc(2 * var(--margin)));
+    }
+
+    .entries {
+        width: calc(var(--two-column-width) + calc(2 * var(--margin)));
     }
 
     .entry {
