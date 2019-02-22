@@ -82,7 +82,7 @@ body {
 
 .container.horizontal {
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .container.horizontal > * {
@@ -95,7 +95,6 @@ body {
 }
 
 .entry {
-    width: var(--six-column-width);
     margin: var(--margin);
     text-align: center;
 }
@@ -162,7 +161,6 @@ input[type="search"].text {
 }
 
 .result-book, .result-date-reading-session, .result-single {
-    width: var(--six-column-width);
     margin: var(--margin);
     text-align: left;
 }
@@ -215,17 +213,17 @@ input[type="search"].text {
         width: calc(var(--three-column-width) + calc(2 * var(--margin)));
     }
 
-    .entry {
-        width: var(--three-column-width);
+    .container.horizontal > .entry {
+        flex: 0 0 var(--three-column-width);
+    }
+
+    .container.horizontal > .result-single {
+        flex: 0 0 var(--four-column-width);
     }
 
     .img-book-large {
         width: var(--four-column-width);
         height: 273px;
-    }
-
-    .result-single {
-        width: var(--four-column-width);
     }
 }
 
@@ -240,8 +238,8 @@ input[type="search"].text {
         width: calc(var(--two-column-width) + calc(2 * var(--margin)));
     }
 
-    .entry {
-        width: var(--two-column-width);
+    .container.horizontal > .entry {
+        flex: 0 0 var(--two-column-width);
     }
 }
 
