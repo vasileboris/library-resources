@@ -149,13 +149,10 @@ input[type="search"].text {
 .delete-item {
 }
 
-.messages {
-    width: 100%;
-}
-
-.message-entry {
-    margin: var(--margin);
-    color: red;
+.message.entry {
+    padding: 10px;
+    color: white;
+    background-color: red;
 }
 
 .waiting {
@@ -225,11 +222,6 @@ input[type="search"].text {
 
     .container.horizontal > .result-single {
         flex: 0 0 var(--four-column-width);
-    }
-
-    .img-book-large {
-        width: var(--four-column-width);
-        height: 273px;
     }
 }
 
