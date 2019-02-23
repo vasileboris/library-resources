@@ -91,7 +91,8 @@ body {
 
 .entries {
     width: calc(var(--six-column-width) + calc(2 * var(--margin)));
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .entry {
