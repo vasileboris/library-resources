@@ -239,6 +239,11 @@ input[type="search"].text {
     .container.horizontal > .entry {
         flex: 0 0 var(--two-column-width);
     }
+
+    .img-book-large {
+        width: var(--four-column-width);
+        height: 273px;
+    }
 }
 
 @media all and (min-width: 800px) {
