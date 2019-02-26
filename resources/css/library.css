@@ -95,10 +95,6 @@ img.logo {
     flex: 0 0 var(--six-column-width);
 }
 
-.logo.container.horizontal > * {
-    flex: 0 0 auto;
-}
-
 .entries {
     width: calc(var(--six-column-width) + calc(2 * var(--margin)));
     margin-left: auto;
