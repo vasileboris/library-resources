@@ -60,9 +60,10 @@ body {
     vertical-align: middle;
 }
 
-.img-logo {
-    height: 80px;
-    width: 80px;
+img.logo {
+    height: 50px;
+    width: 160px;
+    margin: var(--margin) 0;
 }
 
 .page-content {
@@ -92,6 +93,10 @@ body {
 
 .container.horizontal > * {
     flex: 0 0 var(--six-column-width);
+}
+
+.logo.container.horizontal > * {
+    flex: 0 0 auto;
 }
 
 .entries {
@@ -174,7 +179,8 @@ input[type="search"].text {
 }
 
 .result-detail {
-    margin-top: 2px;
+    border-top: 5px solid var(--color-3);
+    padding-top: 5px;
 }
 
 .title {
