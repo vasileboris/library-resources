@@ -185,10 +185,6 @@ a.read-item:link, a.read-item:visited {
     cursor: pointer;
 }
 
-.result > h1 {
-    margin: 0
-}
-
 .result-important {
     font-weight: bold;
     color: var(--color-3);
