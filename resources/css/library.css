@@ -181,7 +181,7 @@ a.read-item:link, a.read-item:visited {
     padding-top: 5px;
 }
 
-.result-detail:hover {
+.result:hover {
     cursor: pointer;
 }
 
