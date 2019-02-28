@@ -144,7 +144,9 @@ input[type="search"].text {
 .edit-item {
 }
 
-.read-item {
+a.read-item:link, a.read-item:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .delete-item {
@@ -169,8 +171,13 @@ input[type="search"].text {
     text-align: left;
 }
 
-.result-detail {
+.result {
     border-top: 5px solid var(--color-3);
+    padding-top: 5px;
+}
+
+.result-detail {
+    border-top: 2px solid var(--color-3);
     padding-top: 5px;
 }
 
@@ -178,8 +185,8 @@ input[type="search"].text {
     cursor: pointer;
 }
 
-.result-detail > h1 {
-    margin: 0 0 var(--margin) 0
+.result > h1 {
+    margin: 0
 }
 
 .result-important {
