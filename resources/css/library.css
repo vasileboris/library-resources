@@ -88,8 +88,8 @@ img.logo {
     justify-content: left;
 }
 
-.results.container.horizontal {
-    flex-flow: row wrap;
+.results.container.horizontal,
+.buttons.container.horizontal {
     justify-content: center;
 }
 
@@ -97,7 +97,7 @@ img.logo {
     flex: 0 0 var(--six-column-width);
 }
 
-.buttons.container.horizontal > * {
+.buttons.small.container.horizontal > * {
     flex: 0 0 var(--twelve-column-width);
 }
 
