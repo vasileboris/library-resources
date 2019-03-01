@@ -93,6 +93,10 @@ img.logo {
     justify-content: center;
 }
 
+.buttons.small.container.horizontal {
+    justify-content: space-between;
+}
+
 .container.horizontal > * {
     flex: 0 0 var(--six-column-width);
 }
@@ -108,6 +112,10 @@ img.logo {
 
 .container.vertical > * {
     flex: 0 0 auto;
+}
+
+.container.vertical > .result-detail {
+    flex: 1 0 auto;
 }
 
 .entries {
@@ -137,8 +145,7 @@ input[type="search"].text {
     width: var(--six-column-width);
     height: 40px;
     border-radius: 10px;
-    margin-right: var(--margin);
-    margin-bottom: var(--margin);
+    margin: var(--margin);
     vertical-align: top;
     color: white;
     background-color: var(--color-3);
@@ -147,16 +154,20 @@ input[type="search"].text {
     outline: none;
 }
 
+.result > .button {
+    margin: var(--margin) 0;
+}
+
+.buttons.small > .button {
+    margin: var(--small-margin) 0;
+}
+
 .readonly {
     pointer-events: none;
 }
 
 .hidden {
     display: none;
-}
-
-.edit-item.button, .delete-item.button {
-    margin: var(--small-margin);
 }
 
 .message.entry {
