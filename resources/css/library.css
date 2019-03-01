@@ -5,7 +5,7 @@
     --three-column-width: 300px;
     --four-column-width: 220px;
     --six-column-width: 140px;
-    --twelve-column-width: 60px;
+    --twelve-column-width: 65px;
     --margin: 10px;
     --small-margin: 5px;
     --max-page-width: calc(var(--six-column-width) + calc(2 * var(--margin)));
@@ -88,12 +88,11 @@ img.logo {
     justify-content: left;
 }
 
-.results.container.horizontal,
-.buttons.container.horizontal {
+.results.container.horizontal {
     justify-content: center;
 }
 
-.buttons.small.container.horizontal {
+.buttons.container.horizontal {
     justify-content: space-between;
 }
 
@@ -145,13 +144,17 @@ input[type="search"].text {
     width: var(--six-column-width);
     height: 40px;
     border-radius: 10px;
-    margin: var(--margin);
+    margin: var(--margin) 0;
     vertical-align: top;
     color: white;
     background-color: var(--color-3);
     font-size: 16px;
     border-style: none;
     outline: none;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .result > .button {
@@ -260,6 +263,14 @@ input[type="search"].text {
 
     .container.horizontal > .entry {
         flex: 0 0 var(--two-column-width);
+    }
+
+    .entry > .button {
+        width: var(--four-column-width);
+    }
+
+    .entry > .container.horizontal > .button {
+        flex: 0 0 var(--four-column-width);
     }
 
     .img-book.large {
