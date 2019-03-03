@@ -33,6 +33,10 @@ body {
     margin: 0;
 }
 
+input[type="search"].text {
+    margin-bottom: 0;
+}
+
 .page-header {
     width: 100%;
     margin: 0;
@@ -48,21 +52,7 @@ body {
     margin-right: auto;
 }
 
-.menu {
-    display: inline;
-    list-style-type: none;
-    font-size: 24px;
-}
-
-.menu-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 32px;
-    vertical-align: middle;
-}
-
-img.logo {
+.img-logo {
     height: 50px;
     width: 160px;
     margin: var(--margin) 0;
@@ -88,20 +78,8 @@ img.logo {
     justify-content: left;
 }
 
-.results.container.horizontal {
-    justify-content: center;
-}
-
-.buttons.container.horizontal {
-    justify-content: space-between;
-}
-
 .container.horizontal > * {
     flex: 0 0 var(--six-column-width);
-}
-
-.buttons.small.container.horizontal > * {
-    flex: 0 0 var(--twelve-column-width);
 }
 
 .container.vertical {
@@ -111,10 +89,6 @@ img.logo {
 
 .container.vertical > * {
     flex: 0 0 auto;
-}
-
-.container.vertical > .result-detail {
-    flex: 1 0 auto;
 }
 
 .entries {
@@ -136,10 +110,6 @@ img.logo {
     font-size: inherit;
 }
 
-input[type="search"].text {
-    margin-bottom: 0;
-}
-
 .button {
     width: var(--six-column-width);
     height: 40px;
@@ -157,34 +127,30 @@ input[type="search"].text {
     cursor: pointer;
 }
 
-.result > .button {
-    margin: var(--margin) 0;
-}
-
-.buttons.small > .button {
-    margin: var(--small-margin) 0;
-}
-
-.readonly {
-    pointer-events: none;
-}
-
-.hidden {
-    display: none;
-}
-
 .message.entry {
     padding: 10px;
     color: white;
     background-color: red;
 }
 
-.waiting {
-    cursor: progress;
-}
-
 .results, .buttons {
     width: 100%;
+}
+
+.results.container.horizontal {
+    justify-content: center;
+}
+
+.buttons.container.horizontal {
+    justify-content: space-between;
+}
+
+.buttons.small.container.horizontal > * {
+    flex: 0 0 var(--twelve-column-width);
+}
+
+.buttons.small > .button {
+    margin: var(--small-margin) 0;
 }
 
 .result, .result-single {
@@ -197,9 +163,17 @@ input[type="search"].text {
     padding-top: var(--small-margin);
 }
 
+.result > .button {
+    margin: var(--margin) 0;
+}
+
 .result-detail {
     border-top: 2px solid var(--color-3);
     padding-top: var(--small-margin);
+}
+
+.container.vertical > .result-detail {
+    flex: 1 0 auto;
 }
 
 .result-important {
@@ -207,13 +181,13 @@ input[type="search"].text {
     color: var(--color-3);
 }
 
+.title {
+    font-weight: bold;
+}
+
 .result > .title {
     margin-left: auto;
     margin-right: auto;
-}
-
-.title {
-    font-weight: bold;
 }
 
 .figure-book {
