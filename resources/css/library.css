@@ -12,6 +12,8 @@
     --color-1: #f4f1ea;
     --color-2: #ffffff;
     --color-3: #10bbd5;
+    --color-delete: red;
+    --color-error: red;
 }
 
 html {
@@ -123,6 +125,10 @@ input[type="search"].text {
     outline: none;
 }
 
+.button.delete {
+    background-color: var(--color-delete);
+}
+
 .button:hover {
     cursor: pointer;
 }
@@ -130,7 +136,7 @@ input[type="search"].text {
 .message.entry {
     padding: 10px;
     color: white;
-    background-color: red;
+    background-color: var(--color-error);
 }
 
 .results, .buttons {
