@@ -38,8 +38,8 @@
    showgrid="false"
    showguides="false"
    inkscape:zoom="6.0285714"
-   inkscape:cx="63.416008"
-   inkscape:cy="33"
+   inkscape:cx="78.094589"
+   inkscape:cy="46.270142"
    inkscape:window-x="67"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
@@ -47,7 +47,7 @@
    type="text/css"
    id="style3793">
 	.st0{fill:#D7D2D1;}
-	.st1{fill:#10bbd5;}
+	.st1{fill:#10BBD5;}
 </style><g
    id="g3805"><g
      id="g3799"><path
@@ -66,30 +66,28 @@
        inkscape:connector-curvature="0"
        class="st0"
        d="m 64.055023,67 c 0,0.549988 -0.450012,1 -1,1 H 11.785004 c -3.220032,0 -5.8400272,-2.619995 -5.8400272,-5.850037 0,-1.549987 0.6300049,-3.049987 1.7200317,-4.130005 1.0700073,-1.079956 2.5700075,-1.70996 4.1199955,-1.70996 h 49.23999 c 0.549988,0 1,0.450012 1,1 V 66 h 1.030029 c 0.549988,0 1,0.450012 1,1 z"
-       id="path3801" /></g></g><text
-   xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d7d2d1;fill-opacity:1;stroke:none"
-   x="68.819908"
-   y="30.014217"
-   id="text3816"><tspan
-     sodipodi:role="line"
-     x="68.819908"
-     y="30.014217"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:FreeSans;-inkscape-font-specification:FreeSans;opacity:0;fill:#d7d2d1;fill-opacity:1"
-     id="tspan3822">My</tspan></text>
-
+       id="path3801" /></g></g>
 
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#10bbd5;fill-opacity:1;stroke:none"
-   x="68.815399"
-   y="54.088215"
-   id="text3816-6"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#D7D2D1;fill-opacity:1;stroke:none"
+   x="67.866669"
+   y="31.773001"
+   id="text1575"><tspan
      sodipodi:role="line"
-     x="68.815399"
-     y="54.088215"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:FreeSans;-inkscape-font-specification:FreeSans;opacity:0;fill:#10bbd5;fill-opacity:1"
-     id="tspan3822-0">Reads</tspan></text>
-
-
+     id="tspan1573"
+     x="67.866669"
+     y="31.773001"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:26.66666603px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">My</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#10BBD5;fill-opacity:1;stroke:none"
+   x="67.866669"
+   y="57.053165"
+   id="text1575-3"><tspan
+     sodipodi:role="line"
+     id="tspan1573-3"
+     x="67.866669"
+     y="57.053165"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:26.66666603px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Reads</tspan></text>
 </svg>
