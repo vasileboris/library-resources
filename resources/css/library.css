@@ -77,7 +77,7 @@ input[type="search"].text {
 
 .container.horizontal {
     flex-flow: row wrap;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 .container.horizontal > * {
