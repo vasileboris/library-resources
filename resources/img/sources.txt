@@ -1,5 +1,4 @@
 See https://creativecommons.org/licenses/by/3.0/
 
-book - https://www.iconfinder.com/iconsets/school-education-32
-read, edit, delete - https://www.iconfinder.com/iconsets/hawcons
-home, help, about - https://www.iconfinder.com/iconsets/MetroStation-PNG
+book, open-book - https://www.iconfinder.com/iconsets/school-education-32
+menu, home, help, info - https://www.iconfinder.com/iconsets/typicons-2
