@@ -1,4 +1,4 @@
 See https://creativecommons.org/licenses/by/3.0/
 
 book, open-book - https://www.iconfinder.com/iconsets/school-education-32
-menu, home, help, info - https://www.iconfinder.com/iconsets/typicons-2
+menu, home, help, info, lock - https://www.iconfinder.com/iconsets/typicons-2
